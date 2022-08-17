@@ -1,5 +1,4 @@
-from .snowfake import Snowfake
-from .snowfake import random
+from .seg2io import read_seg, read_seg2_header
 
 from pkg_resources import get_distribution, DistributionNotFound
 try:
